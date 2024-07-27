@@ -56,3 +56,31 @@
     margin-top: 50px;
     margin-left:50px;
 }
+.footer{
+    margin-right:10px;
+    right:0;
+  bottom: 0;
+top:auto;
+    padding: 40px;
+    display:flex;
+margin-top: 25px;
+    list-style:none;
+    position:relative;
+   width:auto;
+  background-color: black;
+  color: white;
+  text-align:center;
+}
+.footer1 li {
+   
+}
+.footerbutton1{
+   
+    margin-left: 30px;
+    font-size:20px;
+    max-width:max-content;
+    
+    border-radius: 50px;
+    float:left;
+}
+
