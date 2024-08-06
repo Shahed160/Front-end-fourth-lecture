@@ -34,10 +34,55 @@
 }
 .gridcontainer{
     display:grid;
-    grid-template-columns:auto auto auto;
-    grid-gap:10px;
+    grid-template-columns: auto auto auto;
+    grid-gap:10px; 
     text-align:center;
 }
+.defaultExpriment{
+    display:grid;
+    grid-template-areas:"number1 number1 number2"
+    "number3 number4 number5"
+    "number6 number6 number7"
+    "number8 number8 number9" ;
+}
+.number1{
+grid-area:number1;
+background-color: beige;
+}
+.number2{
+grid-area: number2;
+background-color: blue;
+}
+.number3{
+    grid-area: number3;
+    background-color: bisque;
+}
+.number4{
+    grid-area: number4;
+    background-color:aqua;
+}
+.number5{
+    background-color: beige;
+    grid-area: number5;
+}
+
+.number6{
+grid-area: number6;
+background-color: blue;
+}
+.number7{
+grid-area: number7;
+background-color: bisque;
+}
+.number8{
+grid-area: number8;
+background-color:aqua;
+background-color: blanchedalmond;
+}
+.number9{
+    grid-area: number9;
+    }
+
 .griditem{
     margin:auto;
     margin-left:70px;
@@ -117,9 +162,17 @@ float:left;
         mergin-left:40%
     }
 .navlist{
-    
+    display: none;
 }
+#mainButton{
+    list-style: none;
+    display:inline-flex;
+    float:right;
+    margin-top: 50px;
+}
+
     .navlist li{
+
         margin-right:10%;
         width:100%;
         margin-left:auto;
@@ -137,6 +190,9 @@ float:left;
         font-size: 15px;
     }
 
+}
+#mainButton{
+    display:none;
 }
 
 @media only screen and (max-width:1024px){
@@ -179,6 +235,7 @@ float:left;
         
         font-size: 15px;
     }
+    
 }
 #tableDesign{
     width:100%;
@@ -211,4 +268,11 @@ border-bottom: 1px solid;
 padding: 12px 15px;
 border-bottom: 1px solid;
 
+}
+.col{
+    background-color: blue;
+    column-gap: 20px;
+}
+.row{
+    row-gap: 10px;
 }
