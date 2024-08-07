@@ -24,9 +24,9 @@
 }
 .gridcontainer img{
     padding:50px;
-    width:auto;
-    height:auto;
-    max-width:200px;
+    width: 400px;
+    height:300px;
+    max-width:600px;
     border-radius:10px;
     margin-left:30px;
     margin-top:auto;
