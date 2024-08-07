@@ -34,6 +34,7 @@
 }
 .gridcontainer{
     display:grid;
+<<<<<<< Updated upstream
     grid-template-columns: auto auto auto;
     grid-gap:10px; 
     text-align:center;
@@ -83,6 +84,30 @@ background-color: blanchedalmond;
     grid-area: number9;
     }
 
+=======
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas:"item1 item2 "
+                        "item3 item4 item5";
+    grid-gap:10px;
+    text-align:center;
+}
+.griditem1{
+grid-area:item1 ;
+}
+.griditem2{
+    grid-area:item2 ;
+}
+.griditem3{
+    grid-area:item3 ;
+}
+.griditem4{
+    grid-area:item4 ;
+}
+.griditem5{
+    grid-area:item5 ;
+}
+
+>>>>>>> Stashed changes
 .griditem{
     margin:auto;
     margin-left:70px;
@@ -144,11 +169,15 @@ background-color: blue;
 } */
 @media screen and (max-width:600px){
     .gridcontainer{
+
         justify-content: end;
         grid-template-columns: auto auto auto;
 width:100%;
 left:0px;
 float:left;
+    }
+    .navbutton{
+        display:none;
     }
     .griditem img{
         width:100%;
